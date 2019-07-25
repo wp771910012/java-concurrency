@@ -22,4 +22,8 @@ static sychronzied 锁则是 class 对象.
 
 当一个线程请求其他线程已经占有的锁时,请求线程将被阻塞,然而它试图获得它占有的锁时,请
 求会成功.重进入意味着所有的请求式基于每线程,而不是基于每调用.
+
+在JAVA环境下 ReentrantLock 和 synchronized 都是 可重入锁
+
 [证明](ProveReentrancy.java)  
+
