@@ -1,4 +1,4 @@
-package com.wp771910012.lock;
+package com.wp771910012.concurrency.theory;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
